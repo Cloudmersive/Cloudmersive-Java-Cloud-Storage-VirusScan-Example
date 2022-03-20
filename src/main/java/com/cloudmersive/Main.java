@@ -31,7 +31,7 @@ public class Main {
             
             try 
             {
-                VirusScanResult result = apiInstance.scanFile(inputStream);
+                VirusScanResult result = apiInstance.scanFile(inputFile);
                 System.out.println(result);
             } catch (ApiException e) {
                 System.err.println("Exception when calling ScanApi#scanFile");
